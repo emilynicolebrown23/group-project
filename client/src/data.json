@@ -1,0 +1,71 @@
+[
+{
+  "name":"Lenox Hill Neighborhood House Women’s Mental Health Shelter",
+  "address":{
+    "street":"643 Park Ave.",
+    "city":"New York",
+    "state":"New York"
+  }, 
+  "phone": "212-570-1461",
+  "description":"The Neighborhood House has managed the shelter since 1996, funded primarily by New York City’s Department of Homeless Services (DHS) with some support from the New York City Department of Health and Mental Hygiene, with a program focused on offering mental health services to our clients as we help them secure permanent housing.
+  The majority of clients we serve at the Women’s Mental Health Shelter are between 45 and 59 years old.  In addition to being homeless, many of them live with multiple health challenges. The main mental health diagnoses among our clients are schizophrenia and schizo-affective disorders, major depression and bipolar disorder.  Many clients also suffer from personality disorders, either in combination with these diagnoses or on their own. Physically, many of the women we serve, especially those who have been homeless for extended periods, live with chronic ailments including diabetes, hypertension, chronic pain (arthritic, lower back, knees), obesity and related comorbidities.",
+  "website":"https://www.lenoxhill.org/wmhsparkavearmory/",
+  "photo":"/assets/static1.squarespace.jpg"
+},
+{
+    "name": "Shepherds Gate Woman's Shelter",
+    "address": {
+      "street": "605 Sycamore Ave.",
+      "city": "Brentwood",
+      "state": "California"
+    },
+    "phone": "925-308-7507",
+    "description":"Shepherd’s Gate aspires to be recognized as the leading Christ-centered non-profit in Northern California, specializing in providing safe places where women and their children can discover healing and freedom from life-controlling trauma issues through the power of Jesus Christ. Together with community partners, we are committed to empower and equip women to personally transform their lives with a lifetime commitment to recovery.",
+    "website": "https://www.shepherdsgate.org/",
+    "photo": "/assets/shepherdsGate-logo.png"
+
+},
+{
+      "name": "Rescue Mission's Women's Center",
+      "address": {
+        "street": "124 S 400 E #430",
+        "city": "Salt Lake City",
+        "state": "Utah"
+      },
+      "phone": "800-897-5465",
+      "description": "Our Mission.
+          Creating a state where domestic and sexual violence are intolerable.
+          Overview
+          Utah Domestic Violence Coalition is a private non-profit organization recognized nationally for providing expertise concerning issues of domestic and sexual violence to member programs, community partners and others in Utah.",
+      "website": "https://www.udvc.org/",
+      "photo": "/assets/utahDVC.png"
+
+},
+{
+      "name": "Houston Area Women's Center",
+      "address": {
+        "street": "1010 Waugh Dr.",
+        "city": "Houston",
+        "state": "Texas"
+      },
+      "phone": " 713-528-2121",
+      "description": "The Houston Area Women’s Center works to end domestic and sexual violence and supports all in building safe and healthy lives through advocacy, counseling, education, shelter and support services.
+      Our services are free, confidential and available to everyone.",
+      "website": "https://hawc.org/",
+      "photo": "/assets/tex-HAWC-logo.png"
+ 
+},
+{
+      "name": "The Women's Center",
+      "address": {
+        "street": "610 S Thompson St.",
+        "city": "Carbondale",
+        "state": "Illinois"
+      },
+      "phone": "618-529-2324",
+      "description": "One of the first domestic violence centers in the country, The Women's Center, Inc. was created in 1972 by a group of visionaries who recognized the need for a safe, secure environment for Southern Illinois women and their children. We are pro-choice in all aspects of women's social, educational, financial, family, and legal rights.",
+      "website": "http://www.thewomensctr.org/",
+      "photo": "/assets/illinois-logo.png
+  
+}
+]
