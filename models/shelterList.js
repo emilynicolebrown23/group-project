@@ -14,7 +14,7 @@ const shelterListSchema = new Schema({
         state: String
     },
     phone: {
-        type: Number,
+        type: String,
         required: true
     },
     description: String,
