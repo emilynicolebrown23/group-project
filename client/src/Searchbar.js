@@ -35,6 +35,7 @@ class Searchbar extends Component {
                     onChange= {this.handleChange}
                     />
                 <select className="selector">
+                    <option value = "----"> ---- </option>
                     <option value = "New York"> New York </option>
                     <option value = "California"> California </option>
                     <option value = "Illinois"> Illinois </option>

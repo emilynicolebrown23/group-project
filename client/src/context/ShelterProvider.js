@@ -13,7 +13,7 @@ class ShelterProvider extends Component {
     }
 
     getSearch = (userInput) => {
-        axios.get(``)
+        axios.get(`./shelterlist`)
         this.setState({
             searches: Response.data
         })
