@@ -10,12 +10,35 @@ import Home from './components/Home'
 import './style.css'
 
 class App extends Component {
-    // constructor(){
-    //     super()
-    //     this.state = {
-    //         user: "Joe"
-    //     }
+    constructor(){
+        super()
+        this.state = {
+            info: []
+        }
+    }
+
+    // componentDidMount(){
+    //     this.props.getShelters()
     // }
+   
+
+    handleChange = e => {
+        const value = e.target.value
+        this.setState({
+            [e.target.name]: value
+        })
+    }
+
+    handleSubmit = e => {
+       e.preventDefault()
+       this.props.addShelters(this.state)
+       this.setState({
+           name: '',
+           email: '',
+           phone: '',
+           text: ''
+       })
+    }
 
 
     render(){
@@ -25,10 +48,10 @@ class App extends Component {
                 <Switch>
                     <Route exact path="/" component= { Home } />
                     <Route path="/landing" component= { Landing } />
-                    <Route path="/contact" component= { Contact } />
                     <Route path="/resources" component= { Resources } />
                     <Route path="/prevention" component={ Prevention } />
                     <Route path="/involved" component={ Involved } /> 
+                    <Route path="/contact" component= { Contact } />
                 </Switch>
 
             </div>
