@@ -9,7 +9,8 @@
   "phone": "212-570-1461",
   "description":"The Neighborhood House has managed the shelter since 1996, funded primarily by New York City’s Department of Homeless Services (DHS) with some support from the New York City Department of Health and Mental Hygiene, with a program focused on offering mental health services to our clients as we help them secure permanent housing.The majority of clients we serve at the Women’s Mental Health Shelter are between 45 and 59 years old.  In addition to being homeless, many of them live with multiple health challenges. The main mental health diagnoses among our clients are schizophrenia and schizo-affective disorders, major depression and bipolar disorder.  Many clients also suffer from personality disorders, either in combination with these diagnoses or on their own. Physically, many of the women we serve, especially those who have been homeless for extended periods, live with chronic ailments including diabetes, hypertension, chronic pain (arthritic, lower back, knees), obesity and related comorbidities.",
   "website":"https://www.lenoxhill.org/wmhsparkavearmory/",
-  "photo":"./assets/static1.squarespace.jpg"
+  "photo":"./assets/static1.squarespace.jpg",
+  "state": "New York"
 },
 {
     "name": "Shepherds Gate Woman's Shelter",

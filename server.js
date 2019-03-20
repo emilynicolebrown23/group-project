@@ -12,6 +12,7 @@ app.use(morgan('dev'))
 // Reference to our Shelter Routes
 app.use("/shelterList", require('./routes/shelterRoutes.js'))
 
+
 // Database Connection
 mongoose.connect("mongodb://localhost:27017/first-db", {useNewUrlParser: true}, () => {
     console.log('[o] Connected to Database')
