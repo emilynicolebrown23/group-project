@@ -10,12 +10,35 @@ import Home from './components/Home'
 import './style.css'
 
 class App extends Component {
-    // constructor(){
-    //     super()
-    //     this.state = {
-    //         user: "Joe"
-    //     }
+    constructor(){
+        super()
+        this.state = {
+            info: []
+        }
+    }
+
+    // componentDidMount(){
+    //     this.props.getShelters()
     // }
+   
+
+    handleChange = e => {
+        const value = e.target.value
+        this.setState({
+            [e.target.name]: value
+        })
+    }
+
+    handleSubmit = e => {
+       e.preventDefault()
+       this.props.addShelters(this.state)
+       this.setState({
+           name: '',
+           email: '',
+           phone: '',
+           text: ''
+       })
+    }
 
 
     render(){
