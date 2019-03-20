@@ -21,7 +21,7 @@ const shelterListSchema = new Schema({
     website: {
         type: String
     },
-    shelterImgUrl: String
+    photo: String
     
 })
 
