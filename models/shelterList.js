@@ -14,14 +14,15 @@ const shelterListSchema = new Schema({
         state: String
     },
     phone: {
-        type: Number,
+        type: String,
         required: true
     },
     description: String,
     website: {
         type: String
     },
-    photo: String
+    photo: String, 
+    state: String
     
 })
 
