@@ -11,7 +11,7 @@
 
 .contact-container {
     background-color:lightseagreen;
-    height: 100vh;
+    height: 1000vh;
 }
 
 .involved-container {
@@ -40,4 +40,36 @@
 
 a:link {
     text-decoration: none;
+}
+
+
+
+/* //////////////////////Contact */
+
+.contact-container {
+    margin-top: 20px;
+    
+}
+
+.contact-form {
+    padding: 30px;
+    
+}
+
+
+input {
+    border-radius: 20px;
+    padding: 20px;
+    border: 5px solid lightseagreen;
+}
+
+.text-area {
+    width: 70vh;
+    height: 30vh;
+}
+
+
+
+.checkbox {
+    padding:10px;
 }

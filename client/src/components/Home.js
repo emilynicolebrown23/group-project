@@ -1,9 +1,11 @@
 import React from 'react'
+import Searchbar from '../Searchbar'
 
 const Home = () => {
     return (
         <div className="home-container">
-                Home
+               
+            <Searchbar/>
         </div>
     )
 }
