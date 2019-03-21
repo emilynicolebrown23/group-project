@@ -14,7 +14,7 @@ app.use("/shelterList", require('./routes/shelterRoutes.js'))
 
 
 // Database Connection
-mongoose.connect("mongodb://localhost:27017/first-db", {useNewUrlParser: true}, () => {
+mongoose.connect("mongodb://localhost:27017/shelter-db", {useNewUrlParser: true}, () => {
     console.log('[o] Connected to Database')
 } )
 

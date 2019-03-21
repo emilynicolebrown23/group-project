@@ -34,7 +34,9 @@ class Searchbar extends Component {
         return (
            
             <form onSubmit={this.handleSubmit} className="search-form">
+
                 <select name="userInput" className="selector" onChange= {this.handleChange}>
+
                     <option value = "----"> ---- </option>
                     <option value = "New York"> New York </option>
                     <option value = "California"> California </option>
