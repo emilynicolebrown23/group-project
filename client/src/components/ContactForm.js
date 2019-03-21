@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const ContactForm = (props) => {
     const { handleSubmit, handleChange, name, email, phone, info, q1, q2 } = props
     return (

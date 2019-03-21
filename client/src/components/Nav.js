@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 import { Nav, NavItem, NavLink } from 'reactstrap';
 import Searchbar from '../Searchbar' 
+
 
 
 const NavList = () => {
@@ -14,6 +16,7 @@ const NavList = () => {
         //     <Link to="/contact">Contact</Link>
         // </div>
         <div className="nav">
+
             <Nav>
                 <NavItem>
                     <NavLink href="/">Shelter Search</NavLink>
@@ -38,7 +41,7 @@ const NavList = () => {
                 <NavItem><Searchbar /> </NavItem>
                 
             </Nav>
-            
+   
         </div>
     )
 }

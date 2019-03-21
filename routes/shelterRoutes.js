@@ -4,13 +4,26 @@ const Shelter = require('../models/shelterList.js')
 
 
 // GET ONE
-shelterRouter.get('/:state', (req, res, next) => {
-    Shelter.find({state: req.params.state}, (err, foundShelter) => {
+shelterRouter.get('/', (req, res, next) => {
+    console.log(req.query)
+    Shelter.find({'state': req.query.state}, (err, foundShelter) => {
+        //should be findOne .. but it works so not touching
         if(err){
             res.status(500)
             return next(err)
         }
         return res.status(200).send(foundShelter)
+    })
+})
+
+//GET ALL
+shelterRouter.get('/', (req, res, next) => {
+    Shelter.find((err, shelters) => {
+        if(err){
+            res.status(500)
+            return next(err)
+        }
+        return res.status(200).send(shelters)
     })
 })
 
