@@ -1,10 +1,14 @@
 
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
+    /* font-size: 30px; */
+}
+
+.carousel-img{
+    width:100%;
 }
 .home-container {
-    background-color: dodgerblue;
+    background-color: rgb(243, 245, 247);
     height: 100vh;
     
 }
@@ -32,15 +36,15 @@
 
 /* ////////////////////////////////////NAV ///////////////////////////////////////// */
 
-.nav {
+/* .nav {
     height: 10vh;
     display: flex;
     justify-content: space-around;
-}
+} */
 
-a:link {
+/* a:link {
     text-decoration: none;
-}
+} */
 
 
 

@@ -27,13 +27,7 @@ class Searchbar extends Component {
     render(){
         return (
             <form onSubmit={this.handleSubmit} className="search-form">
-                <input className= 'search'
-                    type='select'
-                    name='search'
-                    value={this.state.search}
-                    placeholder= "       Search     "
-                    onChange= {this.handleChange}
-                    />
+                
                 <select className="selector">
                     <option value = "----"> ---- </option>
                     <option value = "New York"> New York </option>
