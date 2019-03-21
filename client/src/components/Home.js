@@ -1,12 +1,19 @@
 import React from 'react'
 import Searchbar from '../Searchbar'
+
+import SearchList from './SearchList'
 import Carousel from './Carousel'
 import { Container, Row, Col } from 'reactstrap';
 import Cards from './Cards'
 
+
 const Home = () => {
     return (
         <div className="home-container">
+
+               
+            <Searchbar/>
+            <SearchList/>
             <Carousel />
             <Container>
                 <Row>
@@ -43,7 +50,6 @@ const Home = () => {
                     <Col sm={{ size: 'auto', offset: 1 }}>.col-sm-auto .offset-sm-1</Col>
                 </Row>
             </Container>
-
         </div>
     )
 }

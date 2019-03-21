@@ -7,6 +7,7 @@ import Prevention from './components/Prevention'
 import Resources from './components/Resources'
 import Landing from './components/Landing'
 import Home from './components/Home'
+import { withShelters } from './context/ShelterProvider'
 import './style.css'
 
 class App extends Component {
@@ -18,27 +19,11 @@ class App extends Component {
     }
 
     // componentDidMount(){
-    //     this.props.getShelters()
+    //     this.props.getSearch()
     // }
    
 
-    handleChange = e => {
-        const value = e.target.value
-        this.setState({
-            [e.target.name]: value
-        })
-    }
-
-    handleSubmit = e => {
-       e.preventDefault()
-       this.props.addShelters(this.state)
-       this.setState({
-           name: '',
-           email: '',
-           phone: '',
-           text: ''
-       })
-    }
+    
 
 
     render(){
@@ -60,4 +45,4 @@ class App extends Component {
 }
 
 
-export default withRouter(App)
+export default withRouter(withShelters(App))

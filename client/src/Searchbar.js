@@ -11,24 +11,32 @@ class Searchbar extends Component {
     }
 
     handleChange = e => {
-        const { value } = e.target
-        this.setState({userInput: value})
+        const value = e.target.value
+        this.setState({
+            [e.target.name]: value
+        })
     }
+    // handleChange = e => {
+    //     const { value } = e.target
+    //     this.setState({userInput: value})
+    // }
 
     handleSubmit = e => {
         e.preventDefault()
         this.props.getSearch(this.state.userInput)
         this.setState({
-            userInput: e.target.value,
             userInput: ''
         })
     }
 
     render(){
+        console.log(this.props)
         return (
+           
             <form onSubmit={this.handleSubmit} className="search-form">
-                
-                <select className="selector">
+
+                <select name="userInput" className="selector" onChange= {this.handleChange}>
+
                     <option value = "----"> ---- </option>
                     <option value = "New York"> New York </option>
                     <option value = "California"> California </option>
