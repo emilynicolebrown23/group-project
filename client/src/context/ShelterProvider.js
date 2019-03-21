@@ -8,23 +8,34 @@ class ShelterProvider extends Component {
     constructor(){
         super()
         this.state = {
-            shelters: []
+            searches: []
         }
     }
 
     getSearch = (userInput) => {
-        axios.get(`./shelterlist`)
-        this.setState({
-            searches: Response.data
+        console.log(userInput)
+       
+        axios.get(`/shelterlist/?state=${userInput}`).then (response => {
+            console.log(response.data)
+            this.setState({
+                searches: response.data,
+                usersState: ''
+            })
         })
     }
 
-    return(){
+    
+
+    
+
+    render(){
         return (
             <ShelterContext.Provider
                 value={{
-                    searches: this.state.searches
+                    searches: this.state.searches,
+                    getSearch: this.getSearch
                 }}>
+                {this.props.children}
             </ShelterContext.Provider>
         )
     }
