@@ -27,6 +27,20 @@
 
 },
 {
+  "name": "San Diego Family Justice Center",
+  "address": {
+    "street": "1122 Broadway, 2nd Floor",
+    "city": "San Diego",
+    "state": "California"
+  },
+  "phone": "1-866-933-HOPE (4673)",
+  "description":"The Family Justice Center, part of the San Diego City Attorney’s Office, is a local agency dedicated to transitioning victims of domestic violence into survivors. The SDFJC is a team of professionals including mental health providers, nurses, restraining order clinic attorneys, prosecutors, domestic violence advocates, immigration specialists, police, and other social service providers. The SDFJC provides services free of charge to victims of domestic violence to empower them to break free of their abusers, end the pattern of violence, and become thriving members of society. The SDFJC provides a safe environment to victims and their families and offers services which enable them to regain their self-worth and find their way out of abusive relationships and into a new violence-free life.",
+  "website": "https://www.sandiego.gov/sandiegofamilyjusticecenter",
+  "photo": "https://www.breakthesilencedv.org/wp-content/uploads/2016/08/SDFJC_LogoSmall.gif",
+  "state": "California"
+
+},
+{
       "name": "Rescue Mission's Women's Center",
       "address": {
         "street": "124 S 400 E #430",
