@@ -1,10 +1,16 @@
 import React from 'react'
+<<<<<<< HEAD
+// import { Link } from 'react-router-dom'
+import { Nav, NavItem, NavLink } from 'reactstrap';
+import Searchbar from '../Searchbar' 
+=======
 import { NavLink } from 'react-router-dom'
 
 import { Nav, NavItem } from 'reactstrap';
 import Searchbar from '../Searchbar' 
 import pic from '../assets/shh-logo-dkrpurple.png'
 
+>>>>>>> master
 
 
 const NavList = () => {
@@ -17,6 +23,12 @@ const NavList = () => {
         //     <Link to="/contact">Contact</Link>
         // </div>
         <div className="nav">
+<<<<<<< HEAD
+            <Nav>
+                <NavItem>
+                    <NavLink href="/home">Shelter Search</NavLink>
+                    {/* <Link to="/">Shelter Search</Link> */}
+=======
 
             <Nav>
                 <NavItem>
@@ -26,6 +38,7 @@ const NavList = () => {
                 </NavItem>
                 <NavItem>
                     <NavLink exact={true} activeClassName='is-active' to='/'>Shelter Search</NavLink>
+>>>>>>> master
                 </NavItem>
                 <NavItem>
                     <NavLink to='/involved'>Get Involved</NavLink>
@@ -43,7 +56,11 @@ const NavList = () => {
                 <NavItem><Searchbar /> </NavItem>
                 
             </Nav>
+<<<<<<< HEAD
+            
+=======
    
+>>>>>>> master
         </div>
     )
 }

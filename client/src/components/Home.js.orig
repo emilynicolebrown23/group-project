@@ -1,22 +1,31 @@
 import React from 'react'
 // import Searchbar from '../Searchbar'
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 import SearchList from './SearchList'
 import Carousel from './Carousel'
 import { Container, Row, Col } from 'reactstrap';
 import Cards from './Cards'
+<<<<<<< HEAD
+=======
 import Event from './Event'
 import Footer from './Footer'
 
 
+>>>>>>> master
 
 const Home = () => {
     return (
         <div className="home-container">
+<<<<<<< HEAD
                
             {/* <Searchbar/> */}
             
+=======
 
+>>>>>>> master
             <Carousel />
             <Container>
                 <Row className="MT-first-sec">
@@ -30,10 +39,15 @@ const Home = () => {
                 </Row>
                
             </Container>
+<<<<<<< HEAD
+            <SearchList/>
+
+=======
             <SearchList /> 
             
 
             <Footer />
+>>>>>>> master
         </div>
     )
 }

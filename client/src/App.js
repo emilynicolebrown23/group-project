@@ -8,6 +8,7 @@ import Resources from './components/Resources'
 import Landing from './components/Landing'
 import Home from './components/Home'
 import { withShelters } from './context/ShelterProvider'
+import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button';
 import './style.css'
 
 class App extends Component {
@@ -36,6 +37,18 @@ class App extends Component {
                     <Route path="/involved" component={ Involved } /> 
                     <Route path="/contact" component= { Contact } />
                 </Switch>
+                <div>
+                    <ScrollUpButton
+                        StopPosition={0}
+                        ShowAtPosition={150}
+                        EasingType='easeOutCubic'
+                        AnimationDuration={500}
+                        ContainerClassName='ScrollUpButton__Container'
+                        TransitionClassName='ScrollUpButton__Toggled'
+                        style={{}}
+                        ToggledStyle={{}}
+                    />
+                </div>
 
             </div>
         )
