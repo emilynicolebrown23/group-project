@@ -5,23 +5,23 @@ const Example = (props) => {
   return (
     <Row>
       <Col sm="4">
-        <Card body>
-          <CardTitle>Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Card body className="big-link-prevent">
+          <CardTitle></CardTitle>
+          <CardText></CardText>
           <Button>Prevention</Button>
         </Card>
       </Col>
       <Col sm="4">
-        <Card body>
-          <CardTitle>Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Card body className="big-link-involved">
+          <CardTitle></CardTitle>
+          <CardText></CardText>
           <Button>Get Involved</Button>
         </Card>
       </Col>
       <Col sm="4">
-        <Card body>
-          <CardTitle>Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Card body className="big-link-resources">
+          <CardTitle></CardTitle>
+          <CardText></CardText>
           <Button>Resources</Button>
         </Card>
       </Col>
