@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { Nav, NavItem } from 'reactstrap';
 import Searchbar from '../Searchbar' 
+import pic from '../assets/shh-logo-dkrpurple.png'
 
 
 
@@ -19,23 +20,24 @@ const NavList = () => {
 
             <Nav>
                 <NavItem>
-                    <NavLink href="/">Shelter Search</NavLink>
-                    {/* <Link to="/">Shelter Search</Link> */}
+                    <NavLink>
+                        <img className="logo-main" src={pic} alt="" /> 
+                    </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/involved">Get Involved</NavLink>
-                    {/* <Link to="/involved">Get Involved</Link> */}
+                    <NavLink exact={true} activeClassName='is-active' to='/'>Shelter Search</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/prevention">Prevention</NavLink>
-                    {/* <Link to="/prevention">Prevention</Link> */}
+                    <NavLink to='/involved'>Get Involved</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/resources">Resources</NavLink>
-                    {/* <Link to="/resources">Resources</Link> */}
+                    <NavLink to='/prevention'>Prevention</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/contact">Contact</NavLink>
+                    <NavLink to='/resources'>Resources</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink to='/contact'>Contact</NavLink>
                     {/* <Link to="/contact">Contact</Link> */}
                 </NavItem>
                 <NavItem><Searchbar /> </NavItem>

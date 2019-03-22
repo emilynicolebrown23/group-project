@@ -1,55 +1,36 @@
 import React from 'react'
-import Searchbar from '../Searchbar'
+// import Searchbar from '../Searchbar'
 
 import SearchList from './SearchList'
 import Carousel from './Carousel'
 import { Container, Row, Col } from 'reactstrap';
 import Cards from './Cards'
+import Event from './Event'
+import Footer from './Footer'
+
 
 
 const Home = () => {
     return (
         <div className="home-container">
 
-               
-            <Searchbar/>
-            <SearchList/>
             <Carousel />
             <Container>
-                <Row>
+                <Row className="MT-first-sec">
                     <Cards />
                 </Row>
-                <Row>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
+                <Row className="MT-second-sec event-sec">
+                    <Col md="6"><Event /></Col>
+                    <Col md="6">
+                        <img src="https://via.placeholder.com/500x570" alt=""/>
+                    </Col>
                 </Row>
-                <Row>
-                    <Col xs="3">.col-3</Col>
-                    <Col xs="auto">.col-auto - variable width content</Col>
-                    <Col xs="3">.col-3</Col>
-                </Row>
-                <Row>
-                    <Col xs="6">.col-6</Col>
-                    <Col xs="6">.col-6</Col>
-                </Row>
-                <Row>
-                    <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-                    <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-                    <Col sm="4">.col-sm-4</Col>
-                </Row>
-                <Row>
-                    <Col sm={{ size: 6, order: 2, offset: 1 }}>.col-sm-6 .order-sm-2 .offset-sm-1</Col>
-                </Row>
-                <Row>
-                    <Col sm="12" md={{ size: 6, offset: 3 }}>.col-sm-12 .col-md-6 .offset-md-3</Col>
-                </Row>
-                <Row>
-                    <Col sm={{ size: 'auto', offset: 1 }}>.col-sm-auto .offset-sm-1</Col>
-                    <Col sm={{ size: 'auto', offset: 1 }}>.col-sm-auto .offset-sm-1</Col>
-                </Row>
+               
             </Container>
+            <SearchList /> 
+            
+
+            <Footer />
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ContactForm from './ContactForm';
-
+import Footer from './Footer'
+import pic from '../assets/carousel-pics_0000.jpg'
 
 class Contact extends Component {
     constructor(){
@@ -34,9 +35,11 @@ class Contact extends Component {
         return (
 
             <div className="contact-container">
-                
-
+                <div className="header-resources">
+                    <img className="resources-img" src={pic} alt="" />
+                </div>
                 <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
+            < Footer/>
             </div>
         )
     }
