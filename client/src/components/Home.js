@@ -1,5 +1,5 @@
 import React from 'react'
-import Searchbar from '../Searchbar'
+// import Searchbar from '../Searchbar'
 import SearchList from './SearchList'
 import Carousel from './Carousel'
 import { Container, Row, Col } from 'reactstrap';
@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className="home-container">
                
-            <Searchbar/>
-            <SearchList/>
+            {/* <Searchbar/> */}
+            
             <Carousel />
             <Container>
                 <Row>
@@ -47,6 +47,7 @@ const Home = () => {
                     <Col sm={{ size: 'auto', offset: 1 }}>.col-sm-auto .offset-sm-1</Col>
                 </Row>
             </Container>
+            <SearchList/>
 
         </div>
     )

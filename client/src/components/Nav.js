@@ -16,7 +16,7 @@ const NavList = () => {
         <div className="nav">
             <Nav>
                 <NavItem>
-                    <NavLink href="/">Shelter Search</NavLink>
+                    <NavLink href="/home">Shelter Search</NavLink>
                     {/* <Link to="/">Shelter Search</Link> */}
                 </NavItem>
                 <NavItem>

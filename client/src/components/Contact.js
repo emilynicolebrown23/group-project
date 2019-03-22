@@ -9,7 +9,9 @@ class Contact extends Component {
             name: '',
             email: '',
             phone: '',
-            text: ''
+            info: '',
+            q1: '',
+            q2: ''
         }
     }
 
@@ -26,7 +28,8 @@ class Contact extends Component {
            name: '',
            email: '',
            phone: '',
-           text: ''
+           info: '',
+           q1: ''
        })
        alert("Thank you for your information. You will be contacted within 24hrs")
     }
