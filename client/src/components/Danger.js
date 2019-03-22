@@ -1,11 +1,12 @@
 import React from 'react'
 
 const Danger = (props) => {
-    const { yes, no } = props
-
+ 
+   
+    //onCheckChange
     return (
         <div className="danger-container">
-
+              {props.final}
         </div>
     )
 }

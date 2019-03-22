@@ -4,7 +4,7 @@ import Danger from './Danger.js'
 
 const DangerList = (props) => {
     return (
-        <div>
+        <div className="dangerlist">
             {props.dangers.map(danger=> <Danger
                                             key={danger._id}
                                             {...danger}

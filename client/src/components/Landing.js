@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom'
 const Landing = () => {
     return (
         <div className="landing-container">
-        <h1>From your garden...</h1>
+        <h1 className="header">From your garden...</h1>
                 <div className="background"></div>
-        <h2>...to your table </h2>
+        <h2 className="footer">                                 ...to your table </h2>
 
-
-            <Link to="/home">Enter</Link>
+            <div className="button-container">
+                <Link to="/home">ENTER SITE</Link>
+            </div>
+            
         </div>
     )
 }

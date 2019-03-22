@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import ContactForm from './ContactForm';
+import DangerForm from './DangerForm';
+import DangerList from './DangerList';
+import { withShelters } from '../context/ShelterProvider'
 
 
 class Contact extends Component {
@@ -40,10 +43,16 @@ class Contact extends Component {
                 
 
                 <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
+
+
+                <DangerForm/>
+
+                {this.props.dangerResult}
+                {/* <DangerList/> */}
             </div>
         )
     }
 
 }
 
-export default Contact
+export default withShelters(Contact)
