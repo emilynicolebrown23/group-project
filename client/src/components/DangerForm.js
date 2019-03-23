@@ -53,8 +53,11 @@ class DangerForm extends React.Component {
 
     render(){
         const { handleChange, handleSubmit } = this
+        console.log(this.setDanger)
         return (
+
             <div className="danger-form">
+            HIIIIIII
                 <form onSubmit={handleSubmit}>
                 <h5>Please answer the following questions so we can better assess your needs</h5> 
                     <h5> Has your partner ever threatened violence?</h5>
@@ -101,6 +104,7 @@ class DangerForm extends React.Component {
 
             </form>
             {this.setDanger}
+            
         </div>
         )
     }

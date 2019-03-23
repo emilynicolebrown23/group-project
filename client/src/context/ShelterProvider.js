@@ -38,6 +38,8 @@ class ShelterProvider extends Component {
     
 
     render(){
+
+        console.log(this.state.dangerResult)
         return (
             <ShelterContext.Provider
                 value={{
