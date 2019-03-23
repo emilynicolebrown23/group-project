@@ -4,6 +4,7 @@ import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } fro
 import pic from '../assets/carousel-pics_0000.jpg'
 import pic2 from '../assets/carousel-pics_0002.jpg'
 import Footer from './Footer'
+import Chatbot from './Chatbot'
 
 const Prevention = () => {
     return (
@@ -13,7 +14,7 @@ const Prevention = () => {
             </div>
             <Container>
                 <Row>
-                    <Col><h1>Know th Signs</h1></Col>
+                    <Col><h1>Know the Signs</h1></Col>
                 </Row>
                 <Row>
                     <Col xs="6">
@@ -40,20 +41,9 @@ const Prevention = () => {
                         </ListGroup>
                     </Col>
                     <Col xs="6">
-                        <ul>
-                            <li>
-                                <h2>Get Help Now</h2>
-                                <p>Find free and confidential support, statewide, 24/7.</p>
-                            </li>
-                            <li>
-                                <h2>Safety Planning</h2>
-                                <p>Checklists and resources for maintaining safety.</p>
-                            </li>
-                            <li>
-                                <h2>Tech Safety</h2>
-                                <p>Tips for maintaining privacy and staying safe online.</p>
-                            </li>
-                        </ul>
+                       
+                        <Chatbot/>
+                        
                     </Col>
                 </Row>
 

@@ -18,6 +18,8 @@ import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } fro
 import pic from '../assets/carousel-pics_0001.jpg'
 import pic2 from '../assets/carousel-pics_0002.jpg'
 import Footer from './Footer'
+import SearchList from './SearchList'
+import Searchbar from '../Searchbar'
 
 
 const Resources = () => {
@@ -28,7 +30,7 @@ const Resources = () => {
         </div>
             <Container>
                 <Row>
-                    <Col><h1>Know th Signs</h1></Col>
+                    <Col><h1>Know the Signs</h1></Col>
                 </Row>
                 <Row>
                     <Col xs="6">
@@ -69,6 +71,9 @@ const Resources = () => {
                                 <p>Tips for maintaining privacy and staying safe online.</p>
                             </li>
                         </ul>
+                        <Searchbar/>
+                        <SearchList/>
+                        
                     </Col>
                 </Row>
                
