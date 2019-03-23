@@ -8,7 +8,8 @@ class ShelterProvider extends Component {
     constructor(){
         super()
         this.state = {
-            searches: []
+            searches: [],
+            dangerResult: ''
         }
     }
 
@@ -24,16 +25,28 @@ class ShelterProvider extends Component {
         })
     }
 
+    setDanger = (dangerResult) => {
+        this.setState({
+            dangerResult
+        })
+    }
+
+
+
     
 
     
 
     render(){
+
+        console.log(this.state.dangerResult)
         return (
             <ShelterContext.Provider
                 value={{
                     searches: this.state.searches,
-                    getSearch: this.getSearch
+                    getSearch: this.getSearch,
+                    setDanger: this.setDanger,
+                    dangerResult: this.state.dangerResult
                 }}>
                 {this.props.children}
             </ShelterContext.Provider>

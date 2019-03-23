@@ -1,6 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
 import SearchList from './SearchList.js'
 import Searchbar from '../Searchbar'
+=======
 import { Component } from 'react'
 import Footer from './Footer'
 import { Container, Row, Col } from 'reactstrap';
@@ -8,10 +10,17 @@ import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } fro
 import VolunteerForm from './VolunteerForm'
 import pic from '../assets/volunteers-sm.jpg'
 
+>>>>>>> master
 
 const Involved = () => {
     return (
         <div className="involved-container">
+<<<<<<< HEAD
+                Get Involved
+
+                <Searchbar/>
+                <SearchList/>
+=======
             <div className="module-border-wrap">
                 <img className="volunteer-img" src={pic} alt="" />
              </div>
@@ -75,6 +84,7 @@ const Involved = () => {
                 
             </Container>   
             <Footer />
+>>>>>>> master
         </div>
     )
 }

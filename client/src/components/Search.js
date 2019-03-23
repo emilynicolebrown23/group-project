@@ -12,6 +12,7 @@ const Search = (props) => {
     return (
         <div className="search-container">
             <h1>{name}</h1>
+            <h2>{state}</h2>
             <p>Street Address: {street} City:{city} {addressState}</p>
             <h4>Phone number: {phone}</h4>
             <p>{description}</p>

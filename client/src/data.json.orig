@@ -22,6 +22,10 @@
     "phone": "925-308-7507",
     "description":"Shepherd’s Gate aspires to be recognized as the leading Christ-centered non-profit in Northern California, specializing in providing safe places where women and their children can discover healing and freedom from life-controlling trauma issues through the power of Jesus Christ. Together with community partners, we are committed to empower and equip women to personally transform their lives with a lifetime commitment to recovery.",
     "website": "https://www.shepherdsgate.org/",
+<<<<<<< HEAD
+    "photo": "./assets/shepherdsGate-logo.png",
+    "state": "California"
+=======
     "photo": "../assets/shepherdsGate-logo.png",
     "state": "California"
 
@@ -38,6 +42,11 @@
   "website": "https://www.sandiego.gov/sandiegofamilyjusticecenter",
   "photo": "https://www.breakthesilencedv.org/wp-content/uploads/2016/08/SDFJC_LogoSmall.gif",
   "state": "California"
+
+    "photo": "./assets/shepherdsGate-logo.png",
+    "state": "California"
+
+>>>>>>> master
 
 },
 {
