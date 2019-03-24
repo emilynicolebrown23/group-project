@@ -6,7 +6,7 @@ import Footer from './Footer'
 import { Container, Row, Col } from 'reactstrap';
 import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
 import VolunteerForm from './VolunteerForm'
-import pic from '../assets/volunteers-sm.jpg'
+import pic from '../assets/header_involved.jpg'
 
 
 const Involved = () => {
