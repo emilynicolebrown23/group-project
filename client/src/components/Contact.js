@@ -3,9 +3,9 @@ import ContactForm from './ContactForm';
 import DangerForm from './DangerForm';
 import DangerList from './DangerList';
 import { withShelters } from '../context/ShelterProvider'
-
+import { Container, Row, Col } from 'reactstrap';
 import Footer from './Footer'
-import pic from '../assets/carousel-pics_0000.jpg'
+import pic from '../assets/header_contact.jpg'
 
 class Contact extends Component {
     constructor(){
@@ -45,14 +45,23 @@ class Contact extends Component {
                 <div className="header-resources">
                     <img className="resources-img" src={pic} alt="" />
                 </div>
-                <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
-
-
-                <DangerForm/>
-
-                {this.props.dangerResult}
-                {/* <DangerList/> */}
-            < Footer/>
+                <Container className="contact-page">
+                    <Row>
+                        <Col md="12"><h2>Please share details of your situation</h2>  </Col>
+                    </Row>
+                    <Row>
+                        <Col md="6">
+                            <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
+                        </Col>
+                   
+                        <Col md="6">
+                            <DangerForm/>
+                            {this.props.dangerResult}
+                            {/* <DangerList/> */}
+                        </Col>
+                    </Row>
+                </Container>       
+                < Footer/>
             </div>
         )
     }
