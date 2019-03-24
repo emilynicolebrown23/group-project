@@ -11,13 +11,14 @@ const Search = (props) => {
     console.log(photo)
     return (
         <div className="search-container">
+            <h4>{state}</h4>
             <h1>{name}</h1>
-            <h2>{state}</h2>
-            <p>Street Address: {street} City:{city} {addressState}</p>
+            <img className="search-img" src={photo} alt="women shelter"/>
+            <p>Street Address: {street} </p><p> City: {city} {addressState}</p>
             <h4>Phone number: {phone}</h4>
             <p>{description}</p>
             <a target="_new" href={website}>Visit website</a>
-            <img src={photo} alt="women shelter"/>
+            
             
 
         </div>

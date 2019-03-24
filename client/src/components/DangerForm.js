@@ -30,6 +30,7 @@ class DangerForm extends React.Component {
     handleSubmit = e => {
         e.preventDefault()
         const count = Object.entries(this.state).reduce((final, [q, answer]) => {
+            
             if(answer === "yes"){
                 final += 1
             }

@@ -7,6 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Cards from './Cards'
 import Event from './Event'
 import Footer from './Footer'
+import Searchbar from '../Searchbar';
 
 
 
@@ -28,10 +29,23 @@ const Home = () => {
                         <img src="https://via.placeholder.com/500x570" alt=""/>
                     </Col>
                 </Row>
+                <Row> 
+                    <div className="home-search">
+                        <h1>Find Your Shelter</h1>
+                        <p>Discover a shelter that fits your needs in one of our active states.</p>
+                        <Searchbar/>
+                        
+                    </div>
+                </Row>
+                <Row>
+                    <SearchList /> 
+                </Row>
+
                
             </Container>
-            <SearchList /> 
-            
+           
+               
+
             <Footer />
         </div>
     )
