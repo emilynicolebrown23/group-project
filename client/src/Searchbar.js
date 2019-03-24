@@ -34,9 +34,7 @@ class Searchbar extends Component {
         console.log(this.props)
         return (
            
-            <form onSubmit={this.handleSubmit} className="search-form">
-
-
+            <form onSubmit={this.handleSubmit}>
                 <select name="userInput" className="selector" onChange= {this.handleChange}>
                     <option value = "----"> Select State </option>
                     <option value = "New York"> New York </option>

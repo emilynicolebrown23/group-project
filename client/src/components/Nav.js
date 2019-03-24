@@ -40,7 +40,7 @@ const NavList = () => {
                     <NavLink to='/contact'>Contact</NavLink>
                     {/* <Link to="/contact">Contact</Link> */}
                 </NavItem>
-                <NavItem><Searchbar /> </NavItem>
+                <NavItem> </NavItem>
                 
             </Nav>
    

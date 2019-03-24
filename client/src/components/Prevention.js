@@ -17,7 +17,7 @@ const Prevention = () => {
                     <Col><h1>Know the Signs</h1></Col>
                 </Row>
                 <Row>
-                    <Col xs="6">
+                    <Col xs="4">
                         <p>Although it is not always easy to immediately recognize an abusive relationship, knowing some of the signs of domestic violence can help save a life.</p>
                         <p>Anyone of any race, gender, age, sexual orientation, social status or religion can be a victim of domestic violence.</p>
                         <p>Abuse occurs in many forms:</p>
@@ -40,10 +40,10 @@ const Prevention = () => {
                             </ListGroupItem>
                         </ListGroup>
                     </Col>
-                    <Col xs="6">
+                    <Col xs="8">
                        
                         <Chatbot/>
-                        
+
                     </Col>
                 </Row>
 

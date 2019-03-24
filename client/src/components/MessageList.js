@@ -8,10 +8,12 @@ class MessageList extends React.Component {
     componentWillUpdate() {
         const node = ReactDOM.findDOMNode(this)
         this.shouldScrollToBottom = node.scrollTop + node.clientHeight + 100 >= node.scrollHeight
+        //+ 100???
     }
+    //this is where my scroll isnt working
     
     componentDidUpdate() {
-        console.log('updatedd')
+        // console.log('updatedd')
         if (this.shouldScrollToBottom) {
             const node = ReactDOM.findDOMNode(this)
             node.scrollTop = node.scrollHeight   
@@ -30,7 +32,6 @@ class MessageList extends React.Component {
                 dataArr.push(<div>
                 <UserMessage key={this.props.userMessages[i].id} username={this.props.userMessages[i].senderID} text={this.props.userMessages[i].text} />
                 <Message key={this.props.messages[i].id} username={this.props.messages[i].senderId} text={this.props.messages[i].text} /> 
-                {/* <UserMessage key={this.props.userMessages[i].id} username={this.props.userMessages[i].senderID} text={this.props.userMessages[i].text} /> */}
                         </div>
                 )
                 }

@@ -111,19 +111,17 @@ ul {
     text-align: center;
 }
 
-form.search-form {
+ form.search-form {
     border-radius: 2px !important;
-    background: #cc7272;
     padding: 6px 20px;
     position: relative;
     margin-left: 20px;
 }
-button.search.button {
+/* button.search.button {
     border: 1px solid #D49591;
     margin-left: 10px;
-    /* background: none; */
     border-radius: 2px;
-}
+} */
 img.logo-main {
     position: relative;
     bottom: 10px;
@@ -346,9 +344,46 @@ button.search.button {
 
 .search-container {
     padding: 20px;
+    box-shadow: 0px 0px .5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.search-form {
+    width: 100%;
+}
+
+.selector {
+    width: 20vw;
+    height: 3vh;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+button.search.button {
+    color: white;
+    background: #47444B;
+    margin-left: 10px;
+    border-radius: 12px;
+    
+}
+
+.search-img {
+    width: 25%;
+    background-color: lightgray;
+    /* padding: 10px; */
+    border-radius: 3px;
 }
 
 
+.home-search {
+    align-items: center;
+}
+
+
+.searchlist {
+    margin-bottom: 20px;
+}
 /* ///////////////////Landing //////////////////////////////////////// */
 
 .landing-container {
@@ -425,13 +460,14 @@ button.search.button {
     margin: 20px;
 }
 
+/* ///////////////////Landing //////////////////////////////////////// */
 
 /* ///////////////////////////CHATBOT///////////////////////////////////////////// */
 .app {
     border: 2px grey solid;
     width: 100%;
     /* padding: 10px; */
-    height: 500px;
+    height: 699px;
     box-shadow: 0px 0px .5px 0px rgba(0,0,0,0.75);
     overflow-y: scroll;
     position: relative;
@@ -440,13 +476,13 @@ button.search.button {
 .userMessage, .message {
     /* background: yellow; */
     margin: 15px 0;
-    padding: 5px;
+    padding: 0px 5px;
 }
 .userMessage .userMessage-username {
     font-size: 11px;
     color: #3e5869;
     opacity: 0.9;
-    margin-bottom: 6px;
+    /* margin-bottom: 6px; */
 }
 
  .userMessage .message-text  {
@@ -517,3 +553,5 @@ button.search.button {
     font-size: 20px;
     padding: 10px;
 }
+
+/* ///////////////////////////CHATBOT///////////////////////////////////////////// */
