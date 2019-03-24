@@ -320,6 +320,7 @@ h5.list-group-item-heading {
     display: flex;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 0;
     
     
 }
