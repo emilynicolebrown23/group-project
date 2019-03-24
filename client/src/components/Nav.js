@@ -20,12 +20,12 @@ const NavList = () => {
 
             <Nav>
                 <NavItem>
-                    <NavLink>
+                    <NavLink to='/home'>
                         <img className="logo-main" src={pic} alt="" /> 
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink exact={true} activeClassName='is-active' to='/'>Shelter Search</NavLink>
+                    <NavLink exact={true} activeClassName='is-active' to='/home'>Shelter Search</NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink to='/involved'>Get Involved</NavLink>
@@ -40,7 +40,7 @@ const NavList = () => {
                     <NavLink to='/contact'>Contact</NavLink>
                     {/* <Link to="/contact">Contact</Link> */}
                 </NavItem>
-                <NavItem><Searchbar /> </NavItem>
+                <NavItem> </NavItem>
                 
             </Nav>
    

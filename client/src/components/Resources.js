@@ -18,6 +18,8 @@ import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } fro
 import pic from '../assets/carousel-pics_0001.jpg'
 import pic2 from '../assets/carousel-pics_0002.jpg'
 import Footer from './Footer'
+import SearchList from './SearchList'
+import Searchbar from '../Searchbar'
 
 
 const Resources = () => {
@@ -27,34 +29,26 @@ const Resources = () => {
                 <img className="resources-img" src={pic} alt="" />
         </div>
             <Container>
+                    {/* <h1>Find Your Shelter</h1>
+                    <p>Discover a shelter that fits your needs in one of our active states.</p>
+
+                    <Searchbar/>
+                    <SearchList/> */}
+
                 <Row>
-                    <Col><h1>Know th Signs</h1></Col>
+                    <Col>
+                    <h1>Find Your Shelter</h1>
+                    <p>Discover a shelter that fits your needs in one of our active states.</p>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col xs="6">
-                        <p>Although it is not always easy to immediately recognize an abusive relationship, knowing some of the signs of domestic violence can help save a life.</p>
-                        <p>Anyone of any race, gender, age, sexual orientation, social status or religion can be a victim of domestic violence.</p>
-                        <p>Abuse occurs in many forms:</p>
-                        <ul>
-                            <li>Physical</li>
-                            <li>Emotional</li>
-                            <li>Financial</li>
-                            <li>Sexual</li>
-                            <li>Digital</li>
-                            <li>Reproductive coercion</li>
-                        </ul>
-                        <p>Learn more about the signs and many forms of domestic abuse: <a href="http://thehotline.org/">thehotline.org.</a>
-                        </p>
-                        <ListGroup>
-                            <ListGroupItem>
-                                <ListGroupItemHeading>LINKLine Advocate</ListGroupItemHeading>
-                                <ListGroupItemText>
-                                    The LINKLine is Utah's 24/7 domestic violence crisis hotline. As a LINKLine advocate volunteer, you will connect individuals who are experiencing domestic violence with resources in or near their community. Training is required and will be provided at no cost to you.
-                                 </ListGroupItemText>
-                            </ListGroupItem>
-                        </ListGroup>
+                    <Col xs="7">
+
+                        <Searchbar/>
+                        <SearchList/>
+                        
                     </Col>
-                    <Col xs="6">
+                    <Col xs="4">
                         <ul>
                             <li>
                                 <h2>Get Help Now</h2>
@@ -69,6 +63,8 @@ const Resources = () => {
                                 <p>Tips for maintaining privacy and staying safe online.</p>
                             </li>
                         </ul>
+                        
+                        
                     </Col>
                 </Row>
                
