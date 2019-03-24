@@ -15,7 +15,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
-import pic from '../assets/carousel-pics_0001.jpg'
+import pic from '../assets/header_resources.jpg'
 import pic2 from '../assets/carousel-pics_0002.jpg'
 import Footer from './Footer'
 
@@ -74,8 +74,6 @@ const Resources = () => {
                
 
             </Container> 
-            <div><img className="resources-img-2" src={pic2} alt="" />
-            </div>
             < Footer />
         </div>
     )

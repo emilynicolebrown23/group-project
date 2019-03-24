@@ -8,7 +8,7 @@ import {
 } from 'reactstrap';
 import photoOne from "../assets/carousel-pics_0000.jpg"
 import photoTwo from "../assets/carousel-pics_0001.jpg"
-import photoThree from "../assets/carousel-pics_0002.jpg"
+import photoThree from "../assets/carousel-pics_0003.jpg"
 
 const items = [
   {
@@ -23,7 +23,7 @@ const items = [
   },
   {
     src: photoThree,
-    caption: "Love doesn't hurt"   
+    caption: "Get Involved"   
   }
 ];
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
-import pic from '../assets/carousel-pics_0000.jpg'
+import pic from '../assets/header_prevent.jpg'
 import pic2 from '../assets/carousel-pics_0002.jpg'
 import Footer from './Footer'
 
@@ -16,7 +16,7 @@ const Prevention = () => {
                     <Col><h1>Know th Signs</h1></Col>
                 </Row>
                 <Row>
-                    <Col xs="6">
+                    <Col md="6">
                         <p>Although it is not always easy to immediately recognize an abusive relationship, knowing some of the signs of domestic violence can help save a life.</p>
                         <p>Anyone of any race, gender, age, sexual orientation, social status or religion can be a victim of domestic violence.</p>
                         <p>Abuse occurs in many forms:</p>
@@ -39,7 +39,7 @@ const Prevention = () => {
                             </ListGroupItem>
                         </ListGroup>
                     </Col>
-                    <Col xs="6">
+                    <Col md="6">
                         <ul>
                             <li>
                                 <h2>Get Help Now</h2>

@@ -32,7 +32,6 @@ const Home = () => {
             </Container>
             <SearchList /> 
             
-
             <Footer />
         </div>
     )
