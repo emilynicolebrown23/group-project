@@ -24,7 +24,7 @@ import Searchbar from '../Searchbar'
 
 const Resources = () => {
     return (
-        <div className="Resources-container">
+        <div className="resources-container">
         <div className="header-resources">
                 <img className="resources-img" src={pic} alt="" />
         </div>
@@ -42,13 +42,13 @@ const Resources = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs="7">
+                    <Col md="6">
 
                         <Searchbar/>
                         <SearchList/>
                         
                     </Col>
-                    <Col xs="4">
+                    <Col md="6">
                         <ul>
                             <li>
                                 <h2>Get Help Now</h2>
