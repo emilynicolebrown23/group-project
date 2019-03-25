@@ -8,7 +8,7 @@ import Chatbot from './Chatbot'
 
 const Prevention = () => {
     return (
-        <div className="Resources-container">
+        <div className="prevention-container">
             <div className="header-resources">
                 <img className="resources-img" src={pic} alt="" />
             </div>

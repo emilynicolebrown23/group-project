@@ -24,11 +24,9 @@ const Footer = () => {
                 <p><FontAwesomeIcon icon="phone" /> 800-897-LINK <br /> <span class="sec-num">
                 800-897-5465</span></p>
                 <p><FontAwesomeIcon icon="envelope" /> january-cohort-2@vschool.io</p>
-                  <ul>
-                  <li>facebook</li>
-                  <li>LinkedIn</li>
-                  <li>Twitter</li>
-                  </ul>
+                <button className="facebook"></button>
+                <button className="linkedin"></button>
+                <button className="twitter"></button>
               </Col>
               <Col md="4" className="rborder" >
                 <h2>24-Hour LINKLine</h2>
