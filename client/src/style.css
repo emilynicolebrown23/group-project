@@ -141,6 +141,24 @@ ul {
     padding: 0;
 }
 
+.resources-container h1 {
+    color: #ffffff;
+    background: linear-gradient(to left, rgba(212, 149, 145, 0), #5F5061);
+    padding: 6px;
+    border-radius: 3px;
+    font-weight: 100;
+    position: relative;
+    width: 90%;
+}
+
+.resources-container h1 + p {
+    margin-bottom: 40px;
+}
+
+.resources-container h2{
+    font-weight: 100;
+    margin-bottom: 2px;
+}
 
 .card {
     border:none;
@@ -181,9 +199,25 @@ img.logo-main {
   
 }
 
-.prevention-container {
-    /* height: 100vh; */
+/* Prevention Page Styles ///////////////////////////*/
+
+.prevention-container >li {
+    font-style: italic;
 }
+.prevention-container .container h1 {
+    color: #ffffff;
+    background: linear-gradient(to left, rgba(212, 149, 145, 0), #5F5061);
+    padding: 6px;
+    border-radius: 3px;
+    font-weight: 100;
+    position: relative;
+    width: 90%;
+    margin-bottom: 50px;
+}
+.prevention-container .last-section {
+    margin-top: 0;
+}
+
 
 /* Resources Page Styles ///////////////////////////////////////// */
 .resources-img {
@@ -194,20 +228,25 @@ img.logo-main {
     object-position: 50% 62%;
     height: 350px;
     margin-bottom: 60px;
+    border-bottom: 8px solid #D49591;
 }
 
 .resources-img-2{
     /* height: 330px; */
     width:100%;
     margin-top:70px;
-  
+}
+
+.resources-container ul {
+    padding-left: 0;
 }
 
 
 .resources-container {
-    background-color: lightpink;
-    height: 100vh;
+    /* background-color: lightpink;
+    height: 100vh; */
 }
+
 
 
 /* Involved Page Styles ///////////////////////////////////////// */
@@ -290,6 +329,7 @@ h5.list-group-item-heading {
 .last-section p, .last-section li,.last-section h3, .last-section h2{
     color: #f7f7f7;
     font-weight: 100;
+    margin-right: 15px;
 
 }
 
@@ -351,6 +391,55 @@ span.sec-num {
 .footer li.nav-item a:hover {
     color: #D49591;
 }
+.facebook{
+    background-image: url(./assets/facebook.png);
+    background-repeat:no-repeat; 
+    background-size: cover;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    border-radius: 4px;
+    padding: 0;
+    transition: .3s;
+}
+
+.facebook:hover {
+    opacity: .3;
+}
+
+.linkedin{
+    background-image: url(./assets/linkedin.png);
+    background-repeat:no-repeat; 
+    background-size: cover;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    border-radius: 4px;
+    padding: 0; 
+    transition: .3s;
+}
+
+.linkedin:hover {
+    opacity: .3;
+}
+.twitter{
+    background-image: url(./assets/twitter.png);
+    background-repeat:no-repeat; 
+    background-size: cover;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    border-radius: 4px;
+    padding: 0;
+    transition: .3s;
+}
+
+.twitter:hover {
+    opacity: .3;
+}
 
 aside.ScrollUpButton__Container.ScrollUpButton__Toggled {
     border: 3px solid #D49591 !important;
@@ -366,6 +455,7 @@ img.logo-main-footer {
 .last-section {
     background: #47444B;
     padding: 30px 0;
+    margin-top: 60px;
 }
 
 
@@ -503,7 +593,7 @@ button.search.button {
 
 .selector {
     width: 20vw;
-    height: 3vh;
+    height: 5vh;
     margin-bottom: 20px;
     text-align: center;
     
@@ -607,6 +697,7 @@ button.search.button {
 
 .danger-form {
     margin: 20px;
+    margin-top: 0;
 }
 
 /* ///////////////////Landing //////////////////////////////////////// */
@@ -661,7 +752,7 @@ button.search.button {
     border-radius: 8px;
 }
 
-.message-list, {
+.message-list {
     box-sizing: border-box;
     padding-left: 6px;
     width: 100%;
