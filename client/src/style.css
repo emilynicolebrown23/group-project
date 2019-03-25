@@ -1,21 +1,24 @@
-
-* {
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Didact+Gothic|Encode+Sans+Condensed|Fahkwang|Forum|Happy+Monkey|Karma|Krub|Magra|Pompiere|Reem+Kufi|Six+Caps|Tenor+Sans|Thasadith');
+/* * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* font-size: 30px; */
-}
+
 
 .carousel-img{
     width:100%;
 }
 .home-container {
-    background-color: rgb(243, 245, 247);
+    background-image: url(https://assets.saatchiart.com/saatchi/700112/art/4126958/3196810-YEKOINXQ-8.jpg);
     height: 100vh;
+
     
 }
 
+
 .contact-container {
-    background-color:lightseagreen;
-    height: 1000vh;
+    background-image: url(https://assets.saatchiart.com/saatchi/700112/art/4126958/3196810-YEKOINXQ-8.jpg);
+    height: 100vh;
+    opacity: 0.8;
 }
 
 .involved-container {
@@ -24,8 +27,62 @@
 }
 
 .prevention-container {
-    background-color: lightgreen;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: linear-gradient(#FFE8FF, #FFBBD0, #B592A8, #715674, transparent 0%), url(https://image.freepik.com/free-vector/abstract-background-with-geometric-design_1048-1450.jpg);
+    opacity: 1;
+    
+    
+}
+
+.quote {
+    width: 1200px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.quote .box {
+    position: relative;
+    margin: 10px;
+    width: 260px;
+    height: 400px;
+    background: white;
+    outline: 2px solid white;
+    outline-offset: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: -10px 25px 50px rgba(0,0,0,.2);
+}
+
+.quote .box:hover {
+    box-shadow: -20px 50px 100px rgba(0,0,0,.5);
+}
+
+.quote .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1; 
+    transition: 0.5s;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+.quote .box.box1:hover ~ .bg {
+   
 }
 
 .resources-container {
@@ -49,6 +106,9 @@
 
 
 /* //////////////////////Contact */
+.contact-header {
+    background-Image: url()
+}
 
 .contact-container {
     margin-top: 20px;
@@ -57,19 +117,39 @@
 
 .contact-form {
     padding: 30px;
+    margin: 10px;
     
+
+}
+
+.questions h5 {
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+.questions {
+    background: rgba(227, 226, 225, 0.893);
+    opacity: 0.8;
+    padding: 20px;
+    margin-top: 10px;
+    
+
 }
 
 
 input {
-    border-radius: 20px;
+   
     padding: 20px;
-    border: 5px solid lightseagreen;
+    border: 5px 5px 5px solid;
+    
 }
 
 .text-area {
     width: 70vh;
     height: 30vh;
+    
 }
 
 

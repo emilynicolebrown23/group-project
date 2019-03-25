@@ -21,12 +21,8 @@ const shelterListSchema = new Schema({
     website: {
         type: String
     },
-<<<<<<< HEAD
-    photo: String
-=======
     photo: String, 
     state: String
->>>>>>> master
     
 })
 

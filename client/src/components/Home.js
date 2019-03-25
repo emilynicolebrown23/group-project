@@ -12,8 +12,8 @@ const Home = () => {
         <div className="home-container">
 
                
-            <Searchbar/>
-            <SearchList/>
+            
+            
             <Carousel />
             <Container>
                 <Row>
@@ -50,6 +50,7 @@ const Home = () => {
                     <Col sm={{ size: 'auto', offset: 1 }}>.col-sm-auto .offset-sm-1</Col>
                 </Row>
             </Container>
+            <SearchList/>
         </div>
     )
 }

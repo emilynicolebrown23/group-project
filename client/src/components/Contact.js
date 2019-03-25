@@ -32,12 +32,11 @@ class Contact extends Component {
     }
     render(){
         return (
-
-            <div className="contact-container">
-                
-
-                <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
-            </div>
+        
+                <div className="contact-container">
+                    <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
+                </div>
+           
         )
     }
 
