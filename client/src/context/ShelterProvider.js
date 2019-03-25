@@ -9,7 +9,8 @@ class ShelterProvider extends Component {
         super()
         this.state = {
             searches: [],
-            dangerResult: ''
+            dangerResult: '',
+            dangerLevel: ''
         }
     }
 
@@ -31,11 +32,23 @@ class ShelterProvider extends Component {
         })
     }
 
-
-
-    
-
-    
+    setDangerLevel = (dangerResult) => {
+        if (dangerResult >= 8){
+            this.setState({
+                dangerLevel: "high"
+                
+            })
+        } else if (dangerResult >= 5 && dangerResult < 8){
+            this.setState({
+                dangerLevel: "moderate"
+            })
+        } else if (dangerResult < 5 ){
+            this.setState({
+                dangerLevel: "Variable"
+            })
+        
+        }
+    }
 
     render(){
 
@@ -46,7 +59,8 @@ class ShelterProvider extends Component {
                     searches: this.state.searches,
                     getSearch: this.getSearch,
                     setDanger: this.setDanger,
-                    dangerResult: this.state.dangerResult
+                    dangerResult: this.state.dangerResult,
+                    dangerLevel: this.state.dangerLevel
                 }}>
                 {this.props.children}
             </ShelterContext.Provider>

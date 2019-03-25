@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Button, Form, FormGroup, Label, Input, CustomInput, FormText } from 'reactstrap';
+import { Col, Row, Button, Form, FormGroup, Label, Input, CustomInput } from 'reactstrap';
 
 export default class Example extends React.Component {
   render() {
