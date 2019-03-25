@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import ContactForm from './ContactForm';
 import DangerForm from './DangerForm';
-import DangerList from './DangerList';
 import { withShelters } from '../context/ShelterProvider'
 import { Container, Row, Col } from 'reactstrap';
 import Footer from './Footer'
 import pic from '../assets/header_contact.jpg'
+
 
 class Contact extends Component {
     constructor(){
@@ -38,7 +38,11 @@ class Contact extends Component {
        })
        alert("Thank you for your information. You will be contacted within 24hrs")
     }
+
+
+    
     render(){
+        console.log(this.props.dangerLevel)
         return (
 
             <div className="contact-container">
@@ -46,19 +50,46 @@ class Contact extends Component {
                     <img className="resources-img" src={pic} alt="" />
                 </div>
                 <Container className="contact-page">
-                    <Row>
+                    {/* <Row>
                         <Col md="12"><h2>Please share details of your situation</h2>  </Col>
                     </Row>
                     <Row>
-                        <Col md="6">
+                        <Col md="4">
                             <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
                         </Col>
                    
-                        <Col md="6">
+                        <Col md="8">
                             <DangerForm/>
-                            {this.props.dangerResult}
-                            {/* <DangerList/> */}
+                            <div className="danger-score">
+                            <h2>Your Danger Score is {this.props.dangerResult}  */}
+                            {/* and your danger level is {this.props.dangerLevel} */}
+                            {/* </h2>
+                                <div className="dangerLevel-chart">
+                                    <div className="red"> High 8-10</div>
+                                    <div className="orange">Moderate 5-8</div>
+                                    <div className="yellow">Variable 1-4</div>
+                                </div>
+                               
+                            </div>
+                            
+                
                         </Col>
+                    </Row> */}
+                    <Row>
+                        <Col md="12"><h2>Please share details of your situation</h2>  </Col>
+                        <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
+                        <DangerForm/>
+                            <div className="danger-score">
+                            <h2>Your Danger Score is {this.props.dangerResult}  
+                            {/* and your danger level is {this.props.dangerLevel} */}
+                            </h2>
+                                <div className="dangerLevel-chart">
+                                    <div className="red"> High 8-10</div>
+                                    <div className="orange">Moderate 5-8</div>
+                                    <div className="yellow">Variable 1-4</div>
+                                </div>
+                               
+                            </div>
                     </Row>
                 </Container>       
                 < Footer/>

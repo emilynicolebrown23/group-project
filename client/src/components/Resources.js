@@ -14,9 +14,9 @@
 // export default Resources
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
-import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
+// import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
 import pic from '../assets/header_resources.jpg'
-import pic2 from '../assets/carousel-pics_0002.jpg'
+// import pic2 from '../assets/carousel-pics_0002.jpg'
 import Footer from './Footer'
 import SearchList from './SearchList'
 import Searchbar from '../Searchbar'

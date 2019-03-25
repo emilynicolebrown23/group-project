@@ -26,10 +26,7 @@ class App extends Component {
         return (
             <div className="app-container">
                 {location.pathname !== "/" && <Nav/>}
-                <Switch>
-                    {/* <Route exact path="/" component= { Home } />
-                    <Route path="/landing" component= { Landing } /> */}
-                     
+                <Switch>     
                     <Route exact path="/" component= { Landing } />
                     <Route path="/home" component= { Home } />
                     <Route path="/resources" component= { Resources } />

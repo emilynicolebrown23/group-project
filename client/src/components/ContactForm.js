@@ -3,7 +3,7 @@ import React from 'react'
 
 
 const ContactForm = (props) => {
-    const { handleSubmit, handleChange, name, email, phone, info, q1, q2 } = props
+    const { handleSubmit, handleChange, name, email, phone, info } = props
     return (
         <form onSubmit={handleSubmit} className="contact-form">
                      
@@ -34,7 +34,7 @@ const ContactForm = (props) => {
                 name="info"
                 value={info}
                 onChange={handleChange}/>
-             <button>Submit</button>
+             <button className="contact-button">Submit</button>
         </form>
     )
 }
