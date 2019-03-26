@@ -402,7 +402,7 @@ h5.list-group-item-heading {
 }
 
 
-/* Footer ///////////////////////////////////////// */
+/* /////////////////////Footer ///////////////////////////////////////// */
 
 .last-section p, .last-section li,.last-section h3, .last-section h2{
     color: #f7f7f7;
@@ -586,7 +586,7 @@ button.search.button {
     transition: .3s;
 }
 
-/* //////////////////////Contact */
+/* //////////////////////Contact //////////////////////////////// */
 
 
 .danger-form h5{
@@ -659,6 +659,12 @@ button.search.button {
    
 }
 
+.contact-button {
+    color: white;
+    background: #47444B;
+    margin-left: 10px;
+    border-radius: 12px;
+}
 
 
 
@@ -719,7 +725,7 @@ button.search.button {
 }
 
 .landing-container > .background {
-    background-image: url('https://images.unsplash.com/photo-1547647458-3d70e38a0f4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
+    background-image: url('https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
     /* background-image: url('https://images.unsplash.com/photo-1444459094717-a39f1e3e0903?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80'); */
     height: 70vh;
     width: 100%;
@@ -761,7 +767,7 @@ button.search.button {
     cursor: pointer;
     border-radius: 5px;
     Font-Family: 'Poppins', Sans-Serif;
-    Font-Size: 44px;
+    Font-Size: 34px;
     text-decoration: none;
 
    
@@ -788,6 +794,23 @@ button.search.button {
     margin-top: 0;
 }
 
+.modal {
+    visibility: hidden;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    transform: scale(0.5)
+}
+
+.password {
+    width: 200px;
+}
+
 /* ///////////////////Landing //////////////////////////////////////// */
 
 /* ///////////////////////////CHATBOT///////////////////////////////////////////// */
@@ -795,10 +818,11 @@ button.search.button {
     border: 2px grey solid;
     width: 100%;
     /* padding: 10px; */
-    height: 699px;
+    height: 400px;
     box-shadow: 0px 0px .5px 0px rgba(0,0,0,0.75);
     overflow-y: scroll;
     position: relative;
+    /* overflow-y: auto; */
 }
 
 .userMessage, .message {
@@ -843,16 +867,23 @@ button.search.button {
 .message-list {
     box-sizing: border-box;
     padding-left: 6px;
-    width: 100%;
-    height: 100%;
-    overflow: scroll;
+    width: 400px;
+    height:350px;
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    /* overflow: auto; */
     background: white;
+    bottom: 0;
 }
 
 
 .send-message-form {
     display: flex;
+    position: sticky;
+    height: 50px;
     bottom: 0;
+    width: 100%;
+    margin-top: 250px;
 }
 .send-message-form input {
     background: #F5F5F5;
@@ -862,7 +893,7 @@ button.search.button {
     border-style: none;
     font-size: 20px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     
 }
 
@@ -883,3 +914,38 @@ button.search.button {
 }
 
 /* ///////////////////////////CHATBOT///////////////////////////////////////////// */
+
+/* ////////////////////////////DANGER FORM //////////////////////////////////////// */
+
+.danger-form {
+    padding: 20px;
+    box-shadow: 0px 0px .5px 0px rgba(0,0,0,0.75);
+}
+
+.danger-score {
+    font-size: 60px;
+    color: red;
+}
+
+.dangerLevel-chart {
+    height: 10vh;
+    width: 70vw;
+    padding: 20px;
+    font-size: 26px;
+    text-align: center;
+    
+}
+.red{
+
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    margin-bottom: 60px;
+}
+
+.orange {
+    background-color: orange;
+    
+}

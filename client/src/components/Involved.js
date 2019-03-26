@@ -1,7 +1,4 @@
 import React from 'react'
-import SearchList from './SearchList.js'
-import Searchbar from '../Searchbar'
-import { Component } from 'react'
 import Footer from './Footer'
 import { Container, Row, Col } from 'reactstrap';
 import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';

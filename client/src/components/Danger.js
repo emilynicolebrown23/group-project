@@ -1,14 +1,14 @@
-import React from 'react'
+// import React from 'react'
 
-const Danger = (props) => {
+// const Danger = (props) => {
  
    
-    //onCheckChange
-    return (
-        <div className="danger-container">
-              {props.final}
-        </div>
-    )
-}
+//     //onCheckChange
+//     return (
+//         <div className="danger-container">
+//               {props.final}
+//         </div>
+//     )
+// }
 
-export default Danger
+// export default Danger

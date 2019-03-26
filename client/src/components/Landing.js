@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Password from './Password'
 
 const Landing = () => {
     return (
@@ -9,9 +10,15 @@ const Landing = () => {
         <h2 className="landing-footer">                                 ...to your table </h2>
 
             <div className="button-container">
-                <Link to="/home">ENTER SITE</Link>
+                <h1>Username</h1>
+                <input className="password"></input>
+                <h1>Password</h1>
+                <input className="password"></input>
+                <Link to="/home">ENTER</Link>
+                
+                
             </div>
-            
+            <Password />
         </div>
     )
 }

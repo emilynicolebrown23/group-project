@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import Chatkit from '@pusher/chatkit-client'
 import MessageList from './MessageList'
 import SendMessageForm from './SendMessageForm'
@@ -11,6 +12,7 @@ class Chatbot extends React.Component {
     
     constructor() {
         super()
+        // this.node = 'app'
         this.state = {
             roomId: '19394103',
             messages: [
@@ -95,6 +97,7 @@ class Chatbot extends React.Component {
             ],
             currentUser: {}
         }
+
     } 
     
     componentDidMount() {
@@ -113,6 +116,22 @@ class Chatbot extends React.Component {
         })
         .catch(err => console.log('error on connecting: ', err))
     }
+
+    // componentWillUpdate() {
+    //     const node = ReactDOM.findDOMNode(this.node)
+    //     this.shouldScrollToBottom = node.scrollTop + node.clientHeight + 100 >= node.scrollHeight
+    //     //+ 100???
+    // }
+    
+    // componentDidUpdate() {
+    //     // console.log('updatedd')
+    //     if (this.shouldScrollToBottom) {
+    //         const node = ReactDOM.findDOMNode(this)
+    //         node.scrollTop = node.scrollHeight   
+    //     }
+    //     this.getMessages()
+    //     //the components did & will mount are where my scroll isnt working
+    // }
  
     sendMessage = (text) => {
         console.log(text)
