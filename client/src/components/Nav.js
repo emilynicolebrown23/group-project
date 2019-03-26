@@ -17,31 +17,33 @@ const NavList = () => {
         // </div>
         <div className="nav">
 
-            <Nav>
-                <NavItem>
-                    <NavLink to='/home'>
-                        <img className="logo-main" src={pic} alt="" /> 
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink exact={true} activeClassName='is-active' to='/home'>Shelter Search</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink to='/involved'>Get Involved</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink to='/prevention'>Prevention</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink to='/resources'>Resources</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink to='/contact'>Contact</NavLink>
-                    {/* <Link to="/contact">Contact</Link> */}
-                </NavItem>
-                <NavItem> </NavItem>
-                
-            </Nav>
+        <Nav className="nav-container">
+            <NavItem className="nav-logo">
+                <img className="logo-main" src={pic} alt="" /> 
+            </NavItem>
+            <NavItem>           
+                {/* <NavLink exact={true} activeClassName='is-active' to='/home'>Shelter Search</NavLink> */}
+                <NavLink to='/home'>Shelter Search</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink to='/involved'>Get Involved</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink to='/prevention'>Prevention</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink to='/resources'>Resources</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink to='/contact'>Contact</NavLink>
+                {/* <Link to="/contact">Contact</Link> */}
+            </NavItem>
+            <NavItem>
+                <a href="https://www.weather.gov/">Quick Escape</a>
+            </NavItem>
+           
+            
+        </Nav>
    
         </div>
     )
