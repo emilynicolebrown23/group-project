@@ -25,8 +25,8 @@ const Home = () => {
                 </Row>
                 <Row className="MT-second-sec event-sec">
                     <Col md="6"><Event /></Col>
-                    <Col md="6">
-                        <img src="https://via.placeholder.com/500x570" alt=""/>
+                    <Col md="6" className="photo-home">
+                        
                     </Col>
                 </Row>
                 <Row> 
