@@ -33,6 +33,7 @@ const ContactForm = (props) => {
                 type="text-area"
                 name="info"
                 value={info}
+                
                 onChange={handleChange}/>
              <button className="contact-button">Submit</button>
         </form>
