@@ -26,8 +26,6 @@ const ContactForm = (props) => {
                 value={phone}
                 placeholder="Phone Number"
                 onChange={handleChange}/>
-
-            {/* <h3>Please share details of your situation</h3> */}
             <input
                 className = "text-area"
                 type="text-area"
