@@ -36,6 +36,16 @@ class DangerForm extends React.Component {
             }
             return final 
         },0)
+        // const level = Object.values(this.state).reduce((answer, [key, level]) => {
+        //     if (dangerResult >= 8){
+        //         return "high"
+        //     } else if (dangerResult >= 5 && dangerResult < 8){
+        //         return "moderate"
+        //     } else if (dangerResult < 5 ){
+        //         return "Variable"
+        //         }
+
+        // })
         console.log(this.props.final)
         this.props.setDanger(count)
         this.setState({
@@ -102,7 +112,7 @@ class DangerForm extends React.Component {
                         <input className="checkbox" name="q10" type="radio" value= {"yes"} onChange={handleChange}/> Yes<br></br>
                         <input className="checkbox" name="q10" type="radio" value={"no"}/> No<br></br>
                     
-                <button>Submit</button>
+                <button className="danger-button">Submit</button>
 
             </form>
             {this.setDanger}

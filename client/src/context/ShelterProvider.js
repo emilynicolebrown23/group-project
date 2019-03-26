@@ -27,28 +27,42 @@ class ShelterProvider extends Component {
     }
 
     setDanger = (dangerResult) => {
-        this.setState({
-            dangerResult
-        })
-    }
-
-    setDangerLevel = (dangerResult) => {
         if (dangerResult >= 8){
             this.setState({
-                dangerLevel: "high"
-                
+                dangerLevel: "high",
+                dangerResult
             })
         } else if (dangerResult >= 5 && dangerResult < 8){
             this.setState({
-                dangerLevel: "moderate"
+                dangerLevel: "moderate",
+                dangerResult
             })
         } else if (dangerResult < 5 ){
             this.setState({
-                dangerLevel: "Variable"
+                dangerLevel: "variable",
+                dangerResult
             })
         
         }
+
     }
+
+    // setDangerLevel = (dangerResult) => {
+    //     if (dangerResult >= 8){
+    //         this.setState({
+    //             dangerLevel: "high"
+    //         })
+    //     } else if (dangerResult >= 5 && dangerResult < 8){
+    //         this.setState({
+    //             dangerLevel: "moderate"
+    //         })
+    //     } else if (dangerResult < 5 ){
+    //         this.setState({
+    //             dangerLevel: "variable"
+    //         })
+        
+    //     }
+    // }
 
     render(){
 

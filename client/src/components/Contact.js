@@ -80,8 +80,8 @@ class Contact extends Component {
                         <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
                         <DangerForm/>
                             <div className="danger-score">
-                            <h2>Your Danger Score is {this.props.dangerResult}  
-                            {/* and your danger level is {this.props.dangerLevel} */}
+                            <h2>Your Danger Score is ({this.props.dangerResult})
+                              and your danger level is {this.props.dangerLevel}
                             </h2>
                                 <div className="dangerLevel-chart">
                                     <div className="red"> High 8-10</div>
