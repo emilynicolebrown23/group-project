@@ -68,9 +68,9 @@ class App extends Component {
   }
 
 
-  // componentWillUnmount() {
-  //   window.removeEventListener("scroll")
-  // }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", null)
+  }
 
   render() {
 
