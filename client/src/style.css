@@ -880,7 +880,7 @@ button.search.button {
     border-radius: 8px;
 }
 
-.message-list, {
+.message-list {
     box-sizing: border-box;
     padding-left: 6px;
     width: 100%;
@@ -1015,6 +1015,10 @@ ul.copyrightInfo {
     justify-content: center; 
     justify-items: center;
     text-align: center;
+}
+
+.counter-container{
+    display: none;
 }
 
 }
