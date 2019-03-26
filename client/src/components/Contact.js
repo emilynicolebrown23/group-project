@@ -50,38 +50,12 @@ class Contact extends Component {
                     <img className="resources-img" src={pic} alt="" />
                 </div>
                 <Container className="contact-page">
-                    {/* <Row>
-                        <Col md="12"><h2>Please share details of your situation</h2>  </Col>
-                    </Row>
-                    <Row>
-                        <Col md="4">
-                            <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
-                        </Col>
-                   
-                        <Col md="8">
-                            <DangerForm/>
-                            <div className="danger-score">
-                            <h2>Your Danger Score is {this.props.dangerResult}  */}
-                            {/* and your danger level is {this.props.dangerLevel} */}
-                            {/* </h2>
-                                <div className="dangerLevel-chart">
-                                    <div className="red"> High 8-10</div>
-                                    <div className="orange">Moderate 5-8</div>
-                                    <div className="yellow">Variable 1-4</div>
-                                </div>
-                               
-                            </div>
-                            
-                
-                        </Col>
-                    </Row> */}
                     <Row>
                         <Col md="12"><h2>Please share details of your situation</h2>  </Col>
                         <ContactForm handleSubmit={this.handleSubmit } handleChange={this.handleChange} {...this.state}/>
                         <DangerForm/>
                             <div className="danger-score">
-                            <h2>Your Danger Score is ({this.props.dangerResult})
-                              and your danger level is {this.props.dangerLevel}
+                            <h2>Your Danger Score is {this.props.dangerResult} and your Danger Level is {this.props.dangerLevel}
                             </h2>
                                 <div className="dangerLevel-chart">
                                     <div className="red"> High 8-10</div>
