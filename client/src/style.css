@@ -218,6 +218,83 @@ img.logo-main {
     margin-top: 0;
 }
 
+.counter-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 850px;
+    bottom: 350px;
+    margin: 0 auto;
+
+}
+
+.counter-container p{ 
+   color: rgb(239, 190, 187);
+   font-weight: 100;
+   text-align: center;
+   line-height: 1.2em;
+   position: relative;
+    bottom: 8px;
+    text-shadow: 1px 1px 2px #000;
+
+}
+
+.counter-box-1 button{
+    margin: 0 auto;
+
+}
+.counter-box-1{
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    left:0;
+    margin-left: 90px;
+    border-radius: 5px;
+    padding: 0 20px 0;
+    background: rgba(95,80,97,0.8);
+
+
+}
+.counter-box-2{
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    border-radius: 5px;
+    padding: 0 20px 0;
+    background: rgba(95,80,97,0.8);
+}
+
+.counter-box-3{
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    border-radius: 5px;
+    right:0;
+    margin-right: 90px;
+    padding: 0 20px 0;
+    background: rgba(95,80,97,0.8);
+}
+.num-count{
+    font-size: 4em;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    text-shadow: 1px 1px 2px #000;
+    color: #f37777;
+
+}
+.stat-end{
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+.stat-begin{
+    font-size: 1.4em;
+    line-height: 4em;
+    font-weight: 600;
+}
+
 
 /* Resources Page Styles ///////////////////////////////////////// */
 .resources-img {
@@ -228,7 +305,8 @@ img.logo-main {
     object-position: 50% 62%;
     height: 350px;
     margin-bottom: 60px;
-    border-bottom: 8px solid #D49591;
+    /* border-bottom: 8px solid #D49591; */
+    
 }
 
 .resources-img-2{
