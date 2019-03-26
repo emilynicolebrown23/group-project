@@ -2,18 +2,19 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Message from './Message'
 import UserMessage from './UserMessage'
+import Chatbot from './Chatbot'
 
 class MessageList extends React.Component {
 
-    constructor(){
-        super()
-        this.node = null
-    }
+    // constructor(){
+    //     super()
+    //     this.node = 'app'
+    // }
 
     componentWillUpdate() {
-        const node = ReactDOM.findDOMNode(this.node)
+        const node = ReactDOM.findDOMNode(this)
         this.shouldScrollToBottom = node.scrollTop + node.clientHeight + 100 >= node.scrollHeight
-        //+ 100???
+        // node.shouldScrollToBottom = node.scrollTop + node.clientHeight + 100 >= node.scrollHeight
     }
     
     componentDidUpdate() {
@@ -22,7 +23,7 @@ class MessageList extends React.Component {
             const node = ReactDOM.findDOMNode(this)
             node.scrollTop = node.scrollHeight   
         }
-        this.getMessages()
+        // this.getMessages()
         //the components did & will mount are where my scroll isnt working
     }
     getMessages = () => {
