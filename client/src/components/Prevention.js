@@ -5,6 +5,8 @@ import pic from '../assets/header_prevent.jpg'
 import pic2 from '../assets/carousel-pics_0002.jpg'
 import Footer from './Footer'
 import Chatbot from './Chatbot'
+import Counter from './Counter'
+import CountUp from 'react-countup';
 
 const Prevention = () => {
     return (
@@ -46,11 +48,69 @@ const Prevention = () => {
 
                     </Col>
                 </Row>
+                <Row>
+                    <Col>
+                    
+                    </Col>
+                </Row>
 
 
             </Container>
-            <div><img className="resources-img-2" src={pic2} alt="" />
-            </div>
+            <Counter />
+            {/* <div className="stat-container">
+               
+                <img className="resources-img-2" src={pic2} alt="" />
+                <div className="counter-container" >
+                    <div className="counter-box-1">
+                        <CountUp start={3954} end={3}>
+                            {({ countUpRef, start }) => (
+                                <div>
+                                    <p>
+                                        1 in  <br />
+                                        <span ref={countUpRef} /> <br/>
+                                        <p className="stat-end">women experience some form of physical violence by an intimate partner.
+                                        </p>
+                                    </p>
+                                    <button onClick={start}>Start</button>
+                                </div>
+                            )}
+                        </CountUp>
+                    </div> 
+                    <div className="counter-box-2">
+                        <CountUp start={3954} end={7}>
+                            {({ countUpRef, start }) => (
+                                <div>
+                                    <p>
+                                        1 in  <br />
+                                        <span ref={countUpRef} /> <br />
+                                        <p className="stat-end"> women have been injured by an intimate partner.
+                                        </p>
+                                    </p>
+                                    <button onClick={start}>Start</button>
+                                </div>
+                            )}
+                        </CountUp>
+                    </div> 
+                    <div className="counter-box-3">
+                        <CountUp start={3954} end={10}>
+                            {({ countUpRef, start }) => (
+                                <div>
+                                    <p>
+                                        1 in  <br />
+                                        <span ref={countUpRef} /> <br />
+                                        <p className="stat-end">women have been raped by an intimate partner. 
+                                        </p>
+                                    </p>
+                                    <button onClick={start}>Start</button>
+                                </div>
+                            )}
+                        </CountUp>
+                    </div> 
+                
+                </div>  
+                
+            
+            </div> */}
             < Footer />
         </div>
     )
