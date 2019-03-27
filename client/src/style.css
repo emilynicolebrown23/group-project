@@ -626,6 +626,11 @@ li.nav-item a:hover {
         display: none;
     }
 
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+  display: none !important;
+  
+}
+
 }
 
 button.search.button:hover {
