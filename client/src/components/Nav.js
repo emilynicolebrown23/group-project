@@ -18,9 +18,14 @@ const NavList = () => {
         <div className="nav">
 
         <Nav className="nav-container">
-            <NavItem className="nav-logo">
-                <img className="logo-main" src={pic} alt="" /> 
+            <NavItem>
+                    <NavLink to='/'>
+                        <img className="logo-main" src={pic} alt="" />
+                    </NavLink>
             </NavItem>
+            {/* <NavItem className="nav-logo">
+                <img className="logo-main" src={pic} alt="" /> 
+            </NavItem> */}
             <NavItem>           
                 {/* <NavLink exact={true} activeClassName='is-active' to='/home'>Shelter Search</NavLink> */}
                 <NavLink to='/home'>Shelter Search</NavLink>
