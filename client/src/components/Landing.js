@@ -18,7 +18,7 @@ const Landing = () => {
                 
                 
             </div>
-            <Password />
+            {/* <Password /> */}
         </div>
     )
 }

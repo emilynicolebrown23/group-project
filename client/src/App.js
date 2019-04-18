@@ -41,7 +41,7 @@ class App extends Component {
                         EasingType='easeOutCubic'
                         AnimationDuration={500}
                         ContainerClassName='ScrollUpButton__Container'
-                        TransitionClassName='ScrollUpButton__Toggled'
+                        TransitionClassName='ScrollUpButton__Toggled'  
                         style={{}}
                         ToggledStyle={{}}
                     />

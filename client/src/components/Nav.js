@@ -19,7 +19,7 @@ const NavList = () => {
 
             <Nav>
                 <NavItem>
-                    <NavLink to='/home'>
+                    <NavLink to='/'>
                         <img className="logo-main" src={pic} alt="" /> 
                     </NavLink>
                 </NavItem>
