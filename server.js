@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require("mongoose")
 const morgan = require("morgan")
 const path = require("path")
-const port = process.env.PORT || 5700
+const PORT = process.env.PORT || 5700
 
 // Middlewares:
 app.use(express.json()) // gives access to req.body
@@ -33,5 +33,5 @@ app.get("*", (req, res) => {
 
 // Server Setup
 app.listen(PORT, () => {
-    console.log('Server is running on port 5700')
+    console.log(`Server is running on port ${PORT}`)
 })
