@@ -592,6 +592,10 @@ li.nav-item a:hover {
    
 }
 
+.nav-item > .quick-escape {
+    color: #47444B;
+}
+
 
 @media (max-width: 760px) {
 

@@ -43,7 +43,7 @@ const NavList = () => {
                 <NavLink to='/contact'>Contact</NavLink>
                 {/* <Link to="/contact">Contact</Link> */}
             </NavItem>
-            <NavItem>
+            <NavItem className="quick-escape">
                 <a href="https://www.weather.gov/">Quick Escape</a>
             </NavItem>
            
