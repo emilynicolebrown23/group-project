@@ -92,20 +92,9 @@
       "phone":"212-570-1461",
       "description":"The Neighborhood House has managed the shelter since 1996, funded primarily by New York City’s Department of Homeless Services (DHS) with some support from the New York City Department of Health and Mental Hygiene, with a program focused on offering mental health services to our clients as we help them secure permanent housing.The majority of clients we serve at the Women’s Mental Health Shelter are between 45 and 59 years old.  In addition to being homeless, many of them live with multiple health challenges. The main mental health diagnoses among our clients are schizophrenia and schizo-affective disorders, major depression and bipolar disorder.  Many clients also suffer from personality disorders, either in combination with these diagnoses or on their own. Physically, many of the women we serve, especially those who have been homeless for extended periods, live with chronic ailments including diabetes, hypertension, chronic pain (arthritic, lower back, knees), obesity and related comorbidities.",
       "website":"https://www.lenoxhill.org/wmhsparkavearmory/",
-      "photo":"/assets/static1.squarespace.jpg",
+      "photo":"http://www.gracesmithhouse.org/uploads/8/0/5/6/80562066/editor/gshlogowebsmall_6.jpg?1533906647",
       "state":"New York"
     },
-    {
-      
-      "id":"5c93fa25f5279e0e181a75f9",
-      "name":"The Women's Center",
-      "address":{
-        "street":"610 S Thompson St.",
-        "city":"Carbondale",
-        "state":"Illinois"},
-      "phone":"618-529-2324",
-    "description":"One of the first domestic violence centers in the country, The Women's Center, Inc. was created in 1972 by a group of visionaries who recognized the need for a safe, secure environment for Southern Illinois women and their children. We are pro-choice in all aspects of women's social, educational, financial, family, and legal rights.","website":"http://www.thewomensctr.org/","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST7iKHLLSwjmq6d8nrkaD3MTGEZTvrxlSjc1l4wrKfGeYYQG176Q",
-      "state":"Illinois"},
 {
   
   "id":"5c940afef5279e0e181a75fa",
@@ -115,7 +104,8 @@
     "city":"Carbondale",
     "state":"Illinois"},
   "phone":"217-789-2830",
-  "description":"Vision Statement:  ICADV envisions a statewide community committed to exposing the root causes of domestic abuse and ensuring safety for families by supporting the voices of all survivors.     Mission Statement:  ICADV builds networks of support for and with survivors, and advances statewide policies and practices that transform societal attitudes and institutions to eliminate and prevent domestic abuse.","website":"https://www.ilcadv.org/","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEIoy3rrtWOYPn7KCU-YRuEbwuw4NQ33Wr-ySK3nluwJl-igfd",
+  "description":"Vision Statement:  ICADV envisions a statewide community committed to exposing the root causes of domestic abuse and ensuring safety for families by supporting the voices of all survivors.     Mission Statement:  ICADV builds networks of support for and with survivors, and advances statewide policies and practices that transform societal attitudes and institutions to eliminate and prevent domestic abuse.","website":"https://www.ilcadv.org/",
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEIoy3rrtWOYPn7KCU-YRuEbwuw4NQ33Wr-ySK3nluwJl-igfd",
   "state":"Illinois"},
 {
   
@@ -137,7 +127,8 @@
     "city":"Houston",
     "state":"Texas"},
   "phone":"325-676-7107",
-  "description":"Center of care and shelter for women, men and children who have experienced domestic violence and/or sexual assault. Noah Project provides advocacy, legal services, counseling, parenting, support groups, chemical dependency groups, accompaniment, safety planning, transportation and employment assistance.","website":"http://noahproject.org/","photo":"http://noahproject.org/site_images/bannerimage-wecaresign.jpg",
+  "description":"Center of care and shelter for women, men and children who have experienced domestic violence and/or sexual assault. Noah Project provides advocacy, legal services, counseling, parenting, support groups, chemical dependency groups, accompaniment, safety planning, transportation and employment assistance.","website":"http://noahproject.org/",
+  "photo":"http://noahproject.org/site_images/bannerimage-wecaresign.jpg",
   "state":"Texas"},
 {
   
@@ -148,18 +139,20 @@
     "city":"Houston",
     "state":"Texas"},
   "phone":"325-573-4351",
-  "description":"This is an outreach office for Gateway Family Services, Inc. We provide non-residential victim services in this office.","website":"","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qg91ur_AUZYQ_VI5sHdRevbJ2EmZ7hpjIahSPwUI3iMgyABi",
+  "description":"This is an outreach office for Gateway Family Services, Inc. We provide non-residential victim services in this office.","website":"http://gatewaysnyder.com/","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qg91ur_AUZYQ_VI5sHdRevbJ2EmZ7hpjIahSPwUI3iMgyABi",
   "state":"Texas"},
 {
   
-  "id":"5c941091f5279e0e181a75fe",
+  
   "name":"Colleen Quigley Women's Center",
   "address":{
     "street":"124 S 400 E #430",
     "city":"Salt Lake City",
     "state":"Utah"},
   "phone":"435-637-3905",
-  "description":"Our Mission. Creating a state where domestic and sexual violence are intolerable. Overview. Utah Domestic Violence Coalition is a private non-profit organization recognized nationally for providing expertise concerning issues of domestic and sexual violence to member programs, community partners and others in Utah.","website":"","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpX-5nKrmVrPCCpJsukv8a8DgskPQ0eMDnrnTbX6qOpw7009d6Q",
+  "description":"Our Mission. Creating a state where domestic and sexual violence are intolerable. Overview. Utah Domestic Violence Coalition is a private non-profit organization recognized nationally for providing expertise concerning issues of domestic and sexual violence to member programs, community partners and others in Utah.",
+  "website":"",
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpX-5nKrmVrPCCpJsukv8a8DgskPQ0eMDnrnTbX6qOpw7009d6Q",
   "state":"Utah"},
 {
   
