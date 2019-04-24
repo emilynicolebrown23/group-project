@@ -625,6 +625,9 @@ li.nav-item a:hover {
         background: rgb(86, 46, 101, .5);
         color: #ffff;
     }
+    .carousel {
+        display: none;
+    }
 
     .carousel-img{
         display: none;
